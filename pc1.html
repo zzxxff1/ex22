@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>bags</title>
+    <style type="text/css">
+        html{
+            width:700px;
+            height:500px;
+        }
+        body{
+            height:100%;
+            margin:0px auto;
+            background-image:url("backgroundpc.jpg");
+            background-repeat:no-repeat;
+            background-attachment: fixed;
+            text-align:center;
+            background-size:90%;
+        }
+        body img{
+            width:100%;
+            height:100%;
+        }        
+        .mask{
+            width:100%;
+            height:100%;  
+            background:#000;  
+            position:absolute; 
+            margin: 0px; 
+            top:0;  
+            left:0; 
+            opacity:0.3;
+        }
+        .bag{
+            width:80%;
+            height:80%;
+            position:absolute;  
+            top:50px;
+            left:10px;
+            display:flex;
+        }
+        .bb{
+            position: absolute;
+            top:20px;
+            left:380px;
+        }
+        .bb img{
+            width:450px;
+            height:500px;
+        }
+        .t{
+            position: absolute;
+            top: 30px;
+            left:580px;
+            z-index:1;
+        }
+        .music{
+            position: absolute;
+            top:70px;
+            left:1020px;
+        }
+        .music img{
+            width:100px;
+            height:auto;
+        }
+        .qe{
+            position: absolute;
+            top:170px;
+            left:1020px;
+        }
+        .qe img{
+            width:100px;
+            height:auto;
+        }
+        .return{
+            position: absolute;
+            top:280px;
+            left:1020px;
+        }
+        .return img{
+            width:100px;
+            height:60px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="mask"></div>
+    <div class="bag">
+        <div class="t"><h1>背包</h1></div>
+        <div class="bb"><img src="bag1.jpg"/></div>
+        <div class="music"><img src="music.jpg"/></div>
+        <div class="qe"><img src="question.jpg"/></div>
+        <div class="return"><img src="return1111.jpg"/></div>
+        </div>
+</body>
+
+</html>
